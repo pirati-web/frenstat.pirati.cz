@@ -1,0 +1,1 @@
+# frenstat.pirati.cz
