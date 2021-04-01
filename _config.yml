@@ -39,7 +39,7 @@ calendar:
 
 facebook:
   loadSDK: true
-  profilePage: "https://www.facebook.com/piratifrenstat/"
+  profilePage: "https://www.facebook.com/Pir%C3%A1ti-Fren%C5%A1t%C3%A1t-732497210478619"
   profilePageName: "Piráti Frenštát"
   appId: 1526197851008996
 
