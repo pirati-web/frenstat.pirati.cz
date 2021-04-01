@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+administrator:
+  email: pavel.franc@pirati.cz # mail kam pujdou maily o webu
+github:
+  url: https://github.com/pirati-web/frenstat.pirati.cz/
+  branch: master
+url: "https://frenstat.pirati.cz"
+
+title: "Piráti Frenštát"
+description: "Česká pirátská strana - místní sdružení Frenštát"
+keywords: "piráti, česká pirátská strana, svoboda, demokracie, piráti frenštát, frenštát"
+
+organization:
+  name: "Piráti Frenštát"
+  email: frenstat@pirati.cz
+  address: |
+      Na Moráni 3
+      120 00 Praha 2
+  mapLink: https://mapy.cz/s/norubuzado
+  redmineLink: https://redmine.pirati.cz/projects/frenstat
+  residenceImg:
+  dataBoxId: b2i4r6j
+  transparentAccount: 2100048174/2010
+  donateLink: https://dary.pirati.cz/podpor-kraj/praha/
+  onboardingLink: https://nalodeni.pirati.cz/
+
+contactSummaryItems:
+  - type: organizationEmail
+  - type: organizationRedmineLink
+  - type: organizationTransparentAccount
+    includeMoreLink: true
+  - type: organizationDataBox
+  - type: piratiRootWebsite
+
+calendar:
+  id: npabehj0rpaqtgo960ju2vjq2s@group.calendar.google.com
+  title: "Kalendář Pirátů Frenštát"
+  page: "https://calendar.google.com/calendar/embed?src=npabehj0rpaqtgo960ju2vjq2s%40group.calendar.google.com&ctz=Europe%2FPrague"
+
+facebook:
+  loadSDK: true
+  profilePage: "https://www.facebook.com/piratifrenstat/"
+  profilePageName: "Piráti Frenštát"
+  appId: 1526197851008996
+
+matomo:
+  loadSDK: true
+  siteId: 68
+
+forum:
+  page: https://forum.pirati.cz/viewforum.php?f=943
+
+youtube:
+  channel: UC_zxYLGrkmrYazYt0MzyVlA
+
+twitter:
+  loadSDK: true
+  profile: piratipraha
+
+instagram:
+  profilePage: https://www.instagram.com/pirati.cz/
+
+flicker:
+  profilePage: https://www.flickr.com/photos/pirati/
+
+styleguide_base_url: 'https://styleguide.pir-test.eu/latest'
+
+############### SETTINSG #################
+
+theme: jekyll-theme-pirati
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-pirati
+
+pagination:
+  per_page: 9
+  permalink: '/:num/'
+  title: ':title - stránka :num'
+  trail: 7
+
+exclude:
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docker-compose.yml
+  - vendor
+
+permalink: /aktuality/:title.html
+collections:
+  people:
+    output: true
+    permalink: /lide/:path:output_ext
+  program:
+    output: true
+    permalink: /volby/:path:output_ext
+
+  # Sole purpose is to create candidate lists in separate files.
+  candidatelists:
+    output: false
+
+defaults:   # defaults values for collection scope
+  -
+    scope:
+      path: "_people"
+    values:
+      layout: "person"
+      rbar:
+        - profile
+        - people
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_program"
+    values:
+      layout: "program-post"
+      rbar:
+         - garant
+         - program
+
+assets:
+  source_maps: true
+  compression: true
+  gzip: false
+  plugins:
+    img:
+      optim:
+        jpegoptim:
+          strip: all
+          max_quality: 80
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  sources:
+    - assets/js
+    - assets/img
+    - vendor/bundle/ruby/2.5.0/gems/jekyll-theme-pirati-8.4.1/assets/img
