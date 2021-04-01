@@ -39,7 +39,7 @@ calendar:
 
 facebook:
   loadSDK: true
-  profilePage: "https://www.facebook.com/piratifrenstat/"
+  profilePage: "https://www.facebook.com/Pir%C3%A1ti-Fren%C5%A1t%C3%A1t-732497210478619"
   profilePageName: "Piráti Frenštát"
   appId: 1526197851008996
 
@@ -48,7 +48,7 @@ matomo:
   siteId: 68
 
 forum:
-  page: https://forum.pirati.cz/viewforum.php?f=943
+  page: https://forum.pirati.cz/viewforum.php?f=81
 
 youtube:
   channel: UC_zxYLGrkmrYazYt0MzyVlA
