@@ -17,7 +17,7 @@ teamDescription:
   pms: 
   contact: 
 mail:
-  - 
+  - janrejman@centrum.cz
 profiles:
   facebook: 
 funkce:
