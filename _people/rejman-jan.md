@@ -16,6 +16,7 @@ description:
 teamDescription:
   pms: 
   contact: 
+mob: +420 777070025
 mail:
   - janrejman@centrum.cz
 profiles:
