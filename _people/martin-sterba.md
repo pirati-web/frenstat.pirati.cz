@@ -1,34 +1,32 @@
 ---
-uid: martin.sterba
-name: Martin Štěrba
+uid: jurik.roman
+name: Roman Jurík 
 titles:
-  before: Mgr.
+  before: BA (Hons)
 category:
   - pms
   - clenove
 ordpms: 1
-img: people/martin-sterba.jpg
+img: people/jurik-roman.jpg
 heroImg: posts/libensky-zamek.jpg
-profession: manažer on-line komunikace
+profession: 
 partyUid: pirati
-description: garant komunikace s veřejností
+description: 
 teamDescription:
-  pms: předseda MS Praha 8
-  contact: kontakt pro média
-mob: +420 732 408 769
+  pms: 
+  contact: 
+mob: +420 
 mail:
-  - martin.sterba@pirati.cz
+  - roman.jurik@pirati.cz
 profiles:
-  facebook:  https://www.facebook.com/sterbamartin
-  twitter:   https://twitter.com/sterbamartin
-  linkedin:  https://linkedin.com/in/sterbamartin/
-  instagram: https://www.instagram.com/sterbamartin__
-  web:       http://www.sterba.eu
-  evidence:  https://evidence.pirati.cz/author/357/
-  odmeny:    https://nalodeni.pirati.cz/odmeny/martin.sterba
+  facebook:  
+  twitter:   
+  linkedin:  
+  instagram: 
+  web:       
+  evidence:  
+  odmeny:    
 funkce:
-  - předseda MS Praha 8
-  - místopředseda <a href="https://www.praha8.cz/Komise-Redakcni-rada-casopisu-Osmicka-2018-2022.html">Redakční rady časopisu Osmička</a>
-  - poradce primátora hl. města Prahy
+
 ---
 
